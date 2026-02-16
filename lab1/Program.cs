@@ -105,7 +105,7 @@ namespace GeometryPolymorphism
                 Console.WriteLine($"{body.Name}: Площа = {body.GetSurfaceArea():F2}");
             }
 
-            Console.WriteLine("\n--- Раннє vs Пізнє зв'язування ---");
+            Console.WriteLine("\n--- Раннє та Пізнє зв'язування ---");
             Parallelepiped p = new Parallelepiped("Блок", 2, 2, 2);
             GeometricBody pAsBase = p;
 
